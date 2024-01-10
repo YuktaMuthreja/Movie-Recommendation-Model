@@ -1,6 +1,9 @@
 # Movie-Recommendation-Model
 
-## Overview
+## Recommendation System Overview
+The recommendation system employs various strategies, including popularity-based, association rule mining, content-based filtering, and collaborative filtering. Additionally, it utilizes advanced techniques like Matrix Factorization and ALS to provide accurate and personalized suggestions based on user interactions. The system aims to enhance user satisfaction and loyalty by delivering tailored recommendations aligned with individual preferences.
+
+## Airflow Overview
 
 This Airflow workflow automates the process of setting up and running an Amazon EMR cluster for movie recommendation. It includes the following steps:
 - Create EMR Cluster: Initiates the creation of an EMR cluster with specified configurations and applications, such as Spark and Hive.
